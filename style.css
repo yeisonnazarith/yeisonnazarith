@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@100&display=swap');
+
+
+
+html, body{
+    margin: 0;
+    font-family: 'Murecho', sans-serif;
+}
+nav{
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav > ul{
+    display: flex;
+    flex-direction: row;
+    color: cornsilk;
+    list-style-type: none;
+
+}
+
+nav > ul > li{
+    margin: 30px;
+}
+
+#columna-info{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+#columna-info >div{
+    width: 400px;
+    font-size: 15px;
+    margin: auto;
+    color: white
+}
+#columna-info>img{
+width: 50%;
+margin: auto;
+}
